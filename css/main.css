@@ -1,0 +1,159 @@
+#sun{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+	left: 20px;
+	top: 30px;
+}
+
+#garden {
+	width: 99%;
+	height: 200px;
+	background: green;
+	position: absolute;
+	bottom: 0;
+}
+
+.base{
+	width: 30%;
+	height: 250px;
+	background: brown;
+	position: absolute;
+	left: 400px;
+	top: 250px;
+}
+
+.techo{
+	border-bottom: 145px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 23%;
+	position: relative;
+	left: 390px;
+}
+
+.puerta{
+	width: 120px;
+	height: 160px;
+	background: grey;
+	position: absolute;
+	left: 50px;
+	top: 70px;
+}
+
+
+.ventana{
+	width: 70px;
+	height: 70px;
+	background: pink;
+	position: absolute;
+	left: 250px;
+	top: 70px;
+}
+
+
+.chimenea{
+	width: 30px;
+	height: 70px;
+	background: HotPink;
+	left: 250px;
+	position: absolute;
+	top: 40px;
+}
+
+.humo{
+	width: 25px;
+	height: 25px;
+	background: #ccc;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	left: 750px;
+	top: 70px;
+}
+.humo2{
+	width: 25px;
+	height: 25px;
+	background: #ccc;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	left: 700px;
+	top: 110px;
+	z-index: 1;
+}
+.humo3{
+	width: 25px;
+	height: 25px;
+	background: #ccc;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	left: 730px;
+	top: 100px;
+	z-index: 1;
+}
+
+
+
+
+#heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    left: 30px;
+    top: 30px;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 27px;
+    top: 0;
+    width: 30px;
+    height: 40px;
+    background: red;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
